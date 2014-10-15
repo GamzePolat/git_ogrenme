@@ -1,0 +1,3 @@
+a=5
+b=3
+print"a ile b nin carpimi",a*b,"dir" 
