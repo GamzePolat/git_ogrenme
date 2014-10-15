@@ -1,0 +1,5 @@
+#kullanacağımız input sayıyı okumak için
+sayi=input("Bir sayi giriniz:")
+Bir sayi giriniz:6
+print(sayi)
+6
