@@ -1,0 +1,7 @@
+parola="python"
+cevap=raw_input("lütfen parolanızı giriniz:")
+if cevap==parola:
+    print "parola onaylandı! programa hoşgeldiniz"
+else:
+    print "parola yanlış yeniden deneyiniz"
+
