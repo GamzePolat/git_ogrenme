@@ -1,0 +1,3 @@
+parola=raw_input("Lutfen parolanizi giriniz:")
+print"girdiginiz parola:",parola
+#kullaniciya raw_input ile deger yazdirmis olduk
