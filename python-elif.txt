@@ -1,7 +1,0 @@
-meyve=raw_input("bir meyve adi girin:")
-if meyve=="elma":
-    print "elma bir meyvedir"
-elif meyve=="armut":
-    print " armut bir meyvedir"
-else:
-    print meyve,"bir meyve degildir
