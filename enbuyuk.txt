@@ -1,0 +1,9 @@
+x=int(raw_input("ilk sayiyi girin"))
+y=int(raw_input("ikinci sayiyi girin"))
+z=int(raw_input("ucuncu sayiyi girin"))
+enbuyuk=x
+if y>enbuyuk:
+    enbuyuk=y
+if z>enbuyuk:
+    enbuyuk=z
+print"en buyuk sayi",enbuyuk,"dir"
