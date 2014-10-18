@@ -1,0 +1,7 @@
+soru=raw_input("python mu ruby mi ?")
+while soru !="python":
+    print "yanlis cevap"
+
+#Bu programi calistirdigimizda sorulan soruya "python" cevabini  vermezsek program biz müdahale edinceye kadar ekrana "yanlis cevap" yazmaya devam eder cunku biz pythona bu komutu vermiş olduk.
+eger programi durdurmak istersek ctrl+c tuslarina basmamiz gerekir veya dongunun sonuna "break" komutu ekleyerek durdurabiliriz.
+while döngüsü if den farkli olarak durdurulmadigi sürece sürekli doner.
