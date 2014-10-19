@@ -1,0 +1,10 @@
+liste=["hale","jale","lale",12,23]#listeye karakter dizilerini yani isimleri yazarken "" kullaniyoruz ama sayilarda buna gerek yoktur
+#sayilarda "" kullanırsak python sayilarida karakter dizisi olarak algilayacaktir
+
+liste=["hale","jale","lale",12,23]
+liste.append("mehmet")#append() i listeye yeni eleman eklemek için kullaniyoruz.
+print(liste)
+#çıktı->   ['hale', 'jale', 'lale', 12, 23, 'mehmet']
+print (liste[0]) #bu ifade listedeki 0 ıncı ögeyi verecektir (hale)
+# append() listenin sonuna ekleme yapmakta kullanilir.
+
