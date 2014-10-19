@@ -1,0 +1,6 @@
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+print(liste.index("ali"))
+# çıktı-> 6
+#index() bize istediğimiz ögenin kacıncı konumda oldugunu söyler
