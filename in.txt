@@ -1,0 +1,6 @@
+cevap=raw_input("sistemden cikmak istediginize emin misiniz? [E/H]")
+if 'e' in cevap or 'E'in cevap:
+    print "cikiliyor "
+else:
+    print "sistemden cikilmadi"
+
