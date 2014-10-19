@@ -1,0 +1,5 @@
+liste=["hale","jale","lale",12,23]
+liste.insert(1,"ahmet")
+
+print(liste)
+#insert()listenin istenen yerine istenen elemani yerleştirir. tipki append() de oldugu gibi listeye yanlizca 1 öge eklememize izin verilir(tek seferde 1 öge)
