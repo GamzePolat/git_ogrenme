@@ -1,0 +1,13 @@
+admin = "kullanici"
+parola = "parola"
+while True:
+    soru1 = raw_input("kullanici adi:")
+    soru2 = raw_input("parola:")
+    if soru1 == admin and soru2 == parola:
+        print "ok"
+        break
+
+    else:
+        print "yanlis"
+
+
