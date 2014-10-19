@@ -1,0 +1,22 @@
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+liste.remove("fatma")
+print(liste)
+#çıktı->    ['hale', 'jale', 'lale', 12, 23, 'ayse', 'ali', 'gul']
+
+
+
+
+#istenilen ögeyi çıkartır
+#oysa pop() metodu istenen sıradaki ögeyi çıkartır.
+
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+liste.pop(0)
+
+print(liste)
+#çıktı->   ['jale', 'lale', 12, 23, 'ayse', 'ali', 'fatma', 'gul']
+#hale listeden çıkmış oldu.
+
