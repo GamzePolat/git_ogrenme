@@ -1,0 +1,2 @@
+print("merhaba ben python")
+merhaba ben python
