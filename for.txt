@@ -1,0 +1,3 @@
+for i in range(1,101):
+    print i
+#while da yaptigimiz şekilde 1 den 100(100 dahil) e kadar yazdirmayi for kullanarak bu şekilde yapabiliriz ama burada range()fonksiyonu da kullanmamız gerekir 101 almamızın sebebi fonksiyona 1 den 101 e kadar yazdir dedigimizde range fonksiyonunun son degeri almamasi yani range() fonksiyonu 1 ile 101 arasındaki sayilari yazdirir.
