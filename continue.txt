@@ -1,0 +1,7 @@
+while True :
+    s=raw_input("bir sayi giriniz")
+    if s=="iptal":
+        break
+    if len(s) <=3:
+        continue
+    print "en fazla 3 haneli bir sayi girin"
