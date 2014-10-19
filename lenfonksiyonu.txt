@@ -1,0 +1,10 @@
+a=int(raw_input("lutfen bir parola belirleyin:"))
+if len(a) >=6:
+    print"parola 5 karakteri gecmemeli!"
+else:
+    print "parolaniz etkin :)"
+
+
+2.ornek:
+a="afyonkarahisar"
+print len (a)
