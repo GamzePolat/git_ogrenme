@@ -1,0 +1,17 @@
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+liste.sort()
+print(liste)
+#sort() ögeleri alfabetik sıraya dizer sayi varsa onlarıda küçükten büyüge siralar.
+# çıktı->  [12, 23, 'ali', 'ayse', 'fatma', 'gul', 'hale', 'jale', 'lale']
+
+#reverse()listenin sırasını terse çevirir
+
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+liste.reverse()
+print(liste)
+
+#çıktı->   ['gul', 'fatma', 'ali', 'ayse', 23, 12, 'lale', 'jale', 'hale']
