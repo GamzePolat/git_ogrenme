@@ -1,0 +1,18 @@
+liste=["hale","jale","lale",12,23]
+yeni_liste=["hale","ali","fatma","gul"]
+liste.extend(yeni_liste)
+
+print(liste.count("hale"))
+
+
+# çıktı->2
+#count bir elemanın listede kaç tane oldugunu  yazar.
+
+
+#liste=["hale","jale","lale",12,23]
+yeni_liste=["hale","ali","fatma","gul"]
+liste.extend(yeni_liste)
+
+print(liste[2:4])
+#liste elemanını bu şekilde de çağırabiliriz (2 eleman birden)
+#çıktı->['lale', 12] olacaktır. birinci sayi dahil ikinci sayi hariç 2 ve 4 arası sayilar listelenir. 2. ve 3.eleman listelenmiş olur.
