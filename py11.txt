@@ -1,0 +1,10 @@
+#listeden bir ögeyi silmek için farklı bir yöntem
+
+liste=["hale","jale","lale",12,23]
+yeni_liste=["ayse","ali","fatma","gul"]
+liste.extend(yeni_liste)
+liste[2:3]=[]
+print(liste)
+
+#Çıktı->['hale', 'jale', 12, 23, 'ayse', 'ali', 'fatma', 'gul']
+#listeden 2. konumdaki eleman yani "lale" çıkmış oldu.
