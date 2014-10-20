@@ -1,0 +1,4 @@
+harfler="hello python "
+print(harfler.count("o"))
+#count() farklı örnek
+#Çıktı->2
