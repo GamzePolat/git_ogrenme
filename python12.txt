@@ -1,8 +1,0 @@
-liste=["hale","jale","lale",12,23]
-yeni_liste=["ayse","ali","fatma","gul"]
-liste.extend(yeni_liste)
-liste[3:3]=["kadir","veli"]
-print(liste)
-# insert() kullanmadan listeye eleman eklendi(birden fazla)
-#Çıktı->['hale', 'jale', 'lale', 'kadir', 'veli', 12, 23, 'ayse', 'ali', 'fatma', 'gul']
-
