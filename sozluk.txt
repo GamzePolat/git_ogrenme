@@ -1,0 +1,7 @@
+sozluk={"elma:" "meyve","domates:" "sebze","1:" "sayi"}
+print(sozluk)
+
+cikti->(['1:sayi', 'domates:sebze', 'elma:meyve'])
+
+#burada mesela "elma" bir anahtar,"meyve" ise bu anahtarin degeridir.
+#Pythonda sozluk: anahtar ve deger arasinda bag kuran bir veri tipidir.
