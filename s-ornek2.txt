@@ -1,0 +1,20 @@
+soru=raw_input("sehrinizin adini tamami kucuk harf olacak sekilde giriniz:")
+if soru=="istanbul":
+    print("gok gurultulu saganak yagisli")
+
+elif soru=="ankara":
+    print("acik ve gunesli")
+
+elif soru=="izmir":
+    print("bulutlu")
+
+else:
+    print("bu sehre iliskin hava durumu bilgisi bulunmamaktadir")
+
+# ayni ornegi sozluk kullanarak yapalim.
+
+soru=raw_input("sehrinizin adini tamami kucuk harf olacak sekilde giriniz:")
+cevap={"istanbul":"gok gurultulu saganak yagisli","ankara":"acik ve gunesli","izmir":"bulutlu"}
+
+print cevap.get(soru,"bu sehre iliskin hava durumu bilgisi bulunmamaktadir")
+
