@@ -1,0 +1,24 @@
+telefon_defteri={"ahmet:""05331234567","salih:""05323215476","selin:""05333333333"}
+
+del telefon_defteri["salih"]
+#salih ogesi silinir.
+print(telefon_defteri)
+
+#tum ogeyi temizlemek icin.
+#telefon_defteri.clear()
+telefon_defteri={"ahmet:""05331234567","salih:""05323215476","selin:""05333333333"}
+
+telefon_defteri.clear()
+print(telefon_defteri)
+#cikti->set([])
+
+telefon_defteri = {"ahmet:" "05331234567", "salih:" "05323215476", 'selin:' '05333333333'}
+print telefon_defteri.keys()
+#Cikti->['ahmet','salih','selin']
+#keys() anahtarlari verir.
+
+telefon_defteri = {"ahmet:" "05331234567", "salih:" "05323215476", 'selin:' '05333333333'}
+print telefon_defteri.values()
+
+#cikti->['05331234567','05323215476','05333333333']
+#values() degerleri verir.
